@@ -9,7 +9,7 @@ app.use(cors());
 
 //create a route
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Express sv test!");
 });
 
 app.listen(3000, () => {
